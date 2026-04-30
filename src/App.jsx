@@ -179,9 +179,9 @@ const Slide6 = () => (
       <div className="glass-card p-large">
         <h4 className="text-mint bold text-large mb-large">Financieras</h4>
         <ul className="description text-medium list-disc ml-large">
-          <li className="mb"><b>annual_inc:</b> Ingreso Anual declarado.<br/><span className="text-small text-gray-400">Rango: $4k a $6M</span></li>
-          <li className="mb"><b>loan_amnt:</b> Monto Solicitado.<br/><span className="text-small text-gray-400">Rango: $500 a $35k</span></li>
-          <li><b>int_rate:</b> Tasa de Interés asignada.<br/><span className="text-small text-gray-400">Rango: 5.4% a 24.6%</span></li>
+          <li className="mb"><b>annual_inc:</b> Ingreso Anual declarado.<br/><span className="text-small text-gray-400">Rango: $40k a $80k</span></li>
+          <li className="mb"><b>loan_amnt:</b> Monto Solicitado.<br/><span className="text-small text-gray-400">Rango: $5k a $15k</span></li>
+          <li><b>int_rate:</b> Tasa de Interés asignada.<br/><span className="text-small text-gray-400">Rango: 10% a 15%</span></li>
         </ul>
       </div>
       <div className="glass-card p-large">
