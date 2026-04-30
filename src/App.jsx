@@ -94,7 +94,7 @@ const Slide1 = () => (
     <h1 className="title-large">Modelo Predictivo de Riesgo</h1>
     <h2 className="subtitle">Clasificación de Préstamos P2P</h2>
     <p className="description mt-large text-large">
-      Presentación Ejecutiva del Modelo de Machine Learning
+      Presentación del Modelo de Machine Learning
     </p>
   </div>
 );
@@ -110,7 +110,7 @@ const Slide2 = () => (
       <div className="glass-card hover-lift">
         <h3 className="card-title text-large mb-large text-pink">El Problema</h3>
         <p className="description text-medium">El riesgo principal es el <b>incumplimiento (Charged Off)</b>.</p>
-        <p className="description text-medium mt text-pink bold">Aprobar a alguien que no pagará (Falso Negativo) significa pérdidas reales inmediatas.</p>
+        <p className="description text-medium mt text-pink bold">Aprobar a alguien que no pagará (Falso Negativo) significa pérdidas directas para el prestamista.</p>
       </div>
     </div>
   </div>
@@ -125,8 +125,8 @@ const Slide3 = () => (
         Desarrollar un modelo de <span className="text-pink bold">Machine Learning</span> capaz de predecir si un usuario incumplirá basándose en sus datos al momento de la solicitud.
       </p>
       <div className="divider flex-around mt-large pt text-medium bold">
-        <div>📈 Mitigar Riesgo</div>
-        <div>⚡ Automatizar Decisiones</div>
+        <div>Mitigar Riesgo</div>
+        <div>Automatizar Decisiones</div>
       </div>
     </div>
   </div>
@@ -144,7 +144,7 @@ const Slide4 = () => (
       ))}
     </div>
     <div className="glass-card p-large text-center">
-      <p className="description text-medium">Dataset estructurado con información sociodemográfica y financiera recabada <b>antes</b> de la aprobación del crédito.</p>
+      <p className="description text-medium">Dataset estructurado con información sociodemográfica y financiera reunida <b>antes</b> de la aprobación del crédito.</p>
     </div>
   </div>
 );
@@ -166,7 +166,7 @@ const Slide5 = () => (
       </div>
       <div className="half-width description text-medium">
         <p>En el mundo real, solo el <b>14%</b> incumple.</p>
-        <p className="mt-large">Si creamos un modelo ciego que siempre diga "Paga", tendría 86% de Accuracy... <span className="text-pink">¡Pero no atraparía a ningún estafador!</span></p>
+        <p className="mt-large">Si creamos un modelo ciego que siempre diga "Paga", tendría 86% de Accuracy... <span className="text-pink">Pero no atraparía a ningún posible moroso</span></p>
       </div>
     </div>
   </div>
@@ -370,7 +370,7 @@ const Slide9 = () => (
     <div className="glass-card flex-row gap-large p-large">
       <div className="half-width description text-medium">
         <p>Aplicamos técnicas de <b>Resampling</b> sobre los datos de entrenamiento para igualar las clases.</p>
-        <p className="mt-large text-mint bold">Le damos al algoritmo una base perfectamente balanceada (50/50), obligándolo a aprender los patrones reales de incumplimiento.</p>
+        <p className="mt-large text-mint bold">Le damos al algoritmo una base perfectamente balanceada (50/50), obligándolo a aprender patrones reales.</p>
       </div>
       <div className="chart-container half-width">
         <ResponsiveContainer width="100%" height="100%">
@@ -595,7 +595,7 @@ const Slide16 = () => (
         <ChevronRight size={30} className="text-mint" />
         <div className="bg-white/10 p-small rounded text-pink bold">4. Gradient Boosting</div>
       </div>
-      <p className="text-mint bold text-medium mt-large pt">No necesitas ser programador para usarlo. Solo ingresa el texto crudo.</p>
+      <p className="text-mint bold text-medium mt-large pt">Solo se ingresa el texto crudo y el pipeline se encargara de todo.</p>
     </div>
   </div>
 );
@@ -795,7 +795,7 @@ const Slide18 = () => (
     <h2 className="title-large mb" style={{ fontSize: '4rem' }}>Impacto Final</h2>
     <div className="glass-card large-card description text-center p-large">
       <p style={{ fontSize: '1.75rem' }}>La implementación de este modelo asegura una tasa de detección de estafas del <b className="text-mint" style={{ fontSize: '2.5rem' }}>97%</b>.</p>
-      <p className="mt" style={{ fontSize: '1.5rem' }}>Hemos transformado los datos crudos en un sistema robusto, automático y escalable que protege el capital de la empresa en tiempo real.</p>
+      <p className="mt" style={{ fontSize: '1.5rem' }}>Hemos transformado los datos crudos en un sistema, automático y escalable que protege el capital del prestamista en tiempo real.</p>
       <p className="text-pink bold mt" style={{ fontSize: '3rem' }}>¡Gracias!</p>
     </div>
   </div>
@@ -824,7 +824,7 @@ const App = () => {
     <div className="app-container">
       {/* HEADER */}
       <header className="header">
-        <div className="header-title">P2P LENDING - PITCH EJECUTIVO</div>
+        <div className="header-title">P2P LENDING</div>
         <div className="header-counter">{current + 1} / {slides.length}</div>
       </header>
 
