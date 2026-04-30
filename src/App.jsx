@@ -794,7 +794,7 @@ const Slide18 = () => (
     </div>
     <h2 className="title-large mb" style={{ fontSize: '4rem' }}>Impacto Final</h2>
     <div className="glass-card large-card description text-center p-large">
-      <p style={{ fontSize: '1.75rem' }}>La implementación de este modelo asegura una tasa de detección de estafas del <b className="text-mint" style={{ fontSize: '2.5rem' }}>97%</b>.</p>
+      <p style={{ fontSize: '1.75rem' }}>La implementación de este modelo asegura una tasa de detección del <b className="text-mint" style={{ fontSize: '2.5rem' }}>97%</b>.</p>
       <p className="mt" style={{ fontSize: '1.5rem' }}>Hemos transformado los datos crudos en un sistema, automático y escalable que protege el capital del prestamista en tiempo real.</p>
       <p className="text-pink bold mt" style={{ fontSize: '3rem' }}>¡Gracias!</p>
     </div>
